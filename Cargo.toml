@@ -1,0 +1,14 @@
+[package]
+name = "svg_panelize"
+version = "0.1.0"
+authors = ["Josh Gao <josh@jmgao.dev>"]
+edition = "2018"
+
+description = "Quick and dirty tool to clone an SVG across X and Y axes"
+repository = "https://github.com/jmgao/svg_panelize"
+license = "MIT"
+
+[dependencies]
+clap = "2.32"
+itertools = "0.8"
+xmltree = "0.10"
